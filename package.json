@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riamsantky-star/Flashman.git"
+    "url": "git+https://github.com/tokenguard-net/mcp-server.git"
   },
   "license": "MIT",
   "engines": {
