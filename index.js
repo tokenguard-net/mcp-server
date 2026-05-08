@@ -27,7 +27,7 @@
  */
 
 const LOCAL_MODE  = process.env.MCP_MODE === "local";
-const ORACLE_BASE = "https://oracle.scoopflashman.tech";
+const ORACLE_BASE = "https://tokenguard.net";
 
 const { McpServer }            = require("@modelcontextprotocol/sdk/server/mcp.js");
 const { StdioServerTransport } = require("@modelcontextprotocol/sdk/server/stdio.js");
