@@ -1,0 +1,37 @@
+{
+  "name": "baseguard-walletguard-mcp",
+  "version": "1.1.2",
+  "description": "MCP server for BaseGuard token safety + WalletGuard wallet intelligence oracles",
+  "main": "index.js",
+  "bin": {
+    "baseguard-walletguard-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:http": "node index.js --http"
+  },
+  "keywords": [
+    "mcp",
+    "baseguard",
+    "walletguard",
+    "x402",
+    "base",
+    "blockchain",
+    "token-safety",
+    "wallet-intelligence"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riamsantky-star/Flashman.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.22.1",
+    "zod": "^3.24.3"
+  }
+}

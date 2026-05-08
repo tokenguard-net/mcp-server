@@ -1,0 +1,11 @@
+# Never ship secrets
+.env
+*.env
+.env.*
+
+# Dev / test artefacts
+*.log
+.DS_Store
+
+# Local engine paths only exist on the VPS — not useful to package consumers
+# (index.js guards these behind MCP_MODE=local at runtime)
