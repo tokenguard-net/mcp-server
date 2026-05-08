@@ -16,7 +16,7 @@ npx @smithery/cli install tokenguard
 ```
 
 ## MCP Server URL
-https://mcp.tokenguard.net/mcp
+https://mcp.scoopflashman.tech/mcp
 
 ## Available Tools
 
